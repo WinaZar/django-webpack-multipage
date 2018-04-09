@@ -69,7 +69,15 @@ STATICFILES_DIRS = [
 ]
 ```
 
-Now you are ready to start development.
+Now you are ready to start development:
+```shell
+npm run start
+```
+
+Production:
+```shell
+npm run build
+```
 
 All bundles must be declared in conf/bundles.js file. By default you have bundle named "base".
 
